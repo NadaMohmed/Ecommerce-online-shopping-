@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/searchicon"
+        android:title="search"
+
+        >
+
+    <menu >
+
+        <item android:id="@+id/item1" android:title=" serach with specific category"></item>
+        <item android:id="@+id/item2" android:title=" serach with specific product"></item>
+
+    </menu>
+
+
+</item>
+
+    <item android:id="@+id/shoopingcart"
+        android:icon="@drawable/shoppingcartlogotransparent"
+        android:title="shoppingcart"
+
+
+        app:showAsAction="always" />
+</menu>
